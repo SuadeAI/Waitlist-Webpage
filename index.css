@@ -1,0 +1,39 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#everything,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+main {
+  max-width: 600px;
+}
+
+.subheader {
+  align-self: center;
+}
+
+#intros-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+#intros-wrapper section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
