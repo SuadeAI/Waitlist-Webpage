@@ -2,17 +2,28 @@ html {
   font-size: 16px;
 }
 
-body,
-main {
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  padding: 1rem;
+}
+
+#everything,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 main {
-  max-width: 700px;
+  max-width: 600px;
+}
+
+.subheader {
+  align-self: center;
 }
 
 #intros-wrapper {
